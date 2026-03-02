@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output (run `npm run build` to regenerate)
+extension/dist/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
+
+# Env / secrets (never commit API keys)
+.env
+.env.local
+
+# Stray files not part of this project (root-level only)
+/src/
