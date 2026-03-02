@@ -1,0 +1,59 @@
+<svg width="340" height="490" viewBox="0 0 340 490" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="popup-shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Popup window -->
+  <rect width="340" height="490" rx="12" fill="#1e1e2e" filter="url(#popup-shadow)"/>
+  <rect width="340" height="490" rx="12" fill="none" stroke="#313244" stroke-width="1"/>
+
+  <!-- Header -->
+  <text x="18" y="32" font-size="15" font-weight="700" fill="#cba6f7" font-family="-apple-system, BlinkMacSystemFont, sans-serif">✦ Clarify</text>
+  <text x="18" y="48" font-size="11" fill="#6c7086" font-family="-apple-system, BlinkMacSystemFont, sans-serif">Highlight any text for an AI explanation</text>
+  <line x1="18" y1="60" x2="322" y2="60" stroke="#313244" stroke-width="1"/>
+
+  <!-- Provider label -->
+  <text x="18" y="82" font-size="9.5" font-weight="600" fill="#a6adc8" letter-spacing="0.6" font-family="-apple-system, BlinkMacSystemFont, sans-serif">PROVIDER</text>
+
+  <!-- Segmented control track -->
+  <rect x="18" y="90" width="304" height="36" rx="9" fill="#181825"/>
+  <!-- Claude active pill -->
+  <rect x="21" y="93" width="97" height="30" rx="6" fill="#313244"/>
+  <text x="69" y="113" font-size="12" font-weight="500" fill="#cba6f7" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif">◆ Claude</text>
+  <!-- OpenAI -->
+  <text x="172" y="113" font-size="12" fill="#6c7086" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif">⬡ OpenAI</text>
+  <!-- Gemini -->
+  <text x="275" y="113" font-size="12" fill="#6c7086" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif">✦ Gemini</text>
+
+  <!-- API Key label -->
+  <text x="18" y="146" font-size="9.5" font-weight="600" fill="#a6adc8" letter-spacing="0.6" font-family="-apple-system, BlinkMacSystemFont, sans-serif">API KEY</text>
+  <!-- Input + eye button row -->
+  <rect x="18" y="154" width="264" height="34" rx="8" fill="#181825" stroke="#313244" stroke-width="1"/>
+  <text x="30" y="175" font-size="12" fill="#45475a" font-family="-apple-system, BlinkMacSystemFont, sans-serif">Your Anthropic key</text>
+  <rect x="290" y="154" width="32" height="34" rx="8" fill="#181825" stroke="#313244" stroke-width="1"/>
+  <text x="306" y="176" font-size="13" fill="#6c7086" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif">👁</text>
+  <!-- Hint -->
+  <text x="18" y="200" font-size="10" fill="#585b70" font-family="-apple-system, BlinkMacSystemFont, sans-serif">Get yours at console.anthropic.com · Stored locally only.</text>
+
+  <!-- Model label -->
+  <text x="18" y="222" font-size="9.5" font-weight="600" fill="#a6adc8" letter-spacing="0.6" font-family="-apple-system, BlinkMacSystemFont, sans-serif">MODEL</text>
+  <rect x="18" y="230" width="304" height="34" rx="8" fill="#181825" stroke="#313244" stroke-width="1"/>
+  <text x="30" y="251" font-size="12" fill="#cdd6f4" font-family="-apple-system, BlinkMacSystemFont, sans-serif">claude-haiku-4-5-20251001</text>
+
+  <!-- Auto-lookup row -->
+  <text x="18" y="288" font-size="9.5" font-weight="600" fill="#a6adc8" letter-spacing="0.6" font-family="-apple-system, BlinkMacSystemFont, sans-serif">AUTO-LOOKUP ON HIGHLIGHT</text>
+  <text x="18" y="304" font-size="10" fill="#585b70" font-family="-apple-system, BlinkMacSystemFont, sans-serif">Trigger on mouse release — no hotkey needed</text>
+  <!-- Toggle ON -->
+  <rect x="276" y="278" width="48" height="26" rx="20" fill="rgba(203,166,247,0.1)" stroke="#cba6f7" stroke-width="1"/>
+  <text x="300" y="296" font-size="11" font-weight="600" fill="#cba6f7" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif">On</text>
+
+  <!-- Save button -->
+  <rect x="18" y="328" width="304" height="38" rx="8" fill="#cba6f7"/>
+  <text x="170" y="352" font-size="12" font-weight="600" fill="#1e1e2e" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif">Save</text>
+
+  <!-- Footer -->
+  <line x1="18" y1="392" x2="322" y2="392" stroke="#313244" stroke-width="1"/>
+  <text x="170" y="412" font-size="10" fill="#45475a" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif">Clarify v0.1 · Source</text>
+</svg>

@@ -21,8 +21,8 @@ Clarify is a Chrome extension that shows a floating tooltip when you select text
 ## Screenshots
 
 | Tooltip on highlight | Mini chat popup | Settings |
-|---|---|---|
-| *(add screenshot)* | *(add screenshot)* | *(add screenshot)* |
+|:---:|:---:|:---:|
+| ![Tooltip](docs/screenshots/tooltip.svg) | ![Chat](docs/screenshots/chat.svg) | ![Settings](docs/screenshots/settings.svg) |
 
 ---
 

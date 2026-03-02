@@ -1,0 +1,56 @@
+<svg width="600" height="330" viewBox="0 0 600 330" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="card-shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Webpage background -->
+  <rect width="600" height="330" fill="#f6f7f8" rx="10"/>
+
+  <!-- Fake browser bar -->
+  <rect width="600" height="34" fill="#e4e4e4" rx="10"/>
+  <rect y="24" width="600" height="10" fill="#e4e4e4"/>
+  <circle cx="18" cy="17" r="5" fill="#ff5f57"/>
+  <circle cx="36" cy="17" r="5" fill="#febc2e"/>
+  <circle cx="54" cy="17" r="5" fill="#28c840"/>
+  <rect x="76" y="9" width="380" height="16" rx="8" fill="#d2d2d2"/>
+  <text x="266" y="21" font-size="11" fill="#888" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif">en.wikipedia.org/wiki/Climate_change</text>
+
+  <!-- Article headline -->
+  <text x="36" y="68" font-size="17" font-weight="700" fill="#1a1a1a" font-family="Georgia, serif">Climate Change — Overview</text>
+
+  <!-- Article body line 1 -->
+  <text x="36" y="94" font-size="13.5" fill="#333" font-family="Georgia, serif">Scientists warn that rising CO₂ levels accelerate the</text>
+
+  <!-- Line 2 with highlighted word -->
+  <text x="36" y="114" font-size="13.5" fill="#333" font-family="Georgia, serif">intensification of the </text>
+  <rect x="188" y="100" width="122" height="18" rx="3" fill="#b9d4ff" opacity="0.85"/>
+  <text x="190" y="114" font-size="13.5" fill="#1a1a1a" font-family="Georgia, serif">greenhouse effect</text>
+  <text x="313" y="114" font-size="13.5" fill="#333" font-family="Georgia, serif">, causing</text>
+
+  <!-- Line 3 -->
+  <text x="36" y="134" font-size="13.5" fill="#333" font-family="Georgia, serif">long-term shifts in global weather patterns.</text>
+
+  <!-- Tooltip card -->
+  <rect x="36" y="150" width="330" height="160" rx="12" fill="#1e1e2e" filter="url(#card-shadow)"/>
+
+  <!-- Close btn -->
+  <text x="344" y="172" font-size="16" fill="#585b70" font-family="-apple-system, BlinkMacSystemFont, sans-serif">×</text>
+
+  <!-- Word -->
+  <text x="54" y="176" font-size="14" font-weight="700" fill="#cba6f7" font-family="-apple-system, BlinkMacSystemFont, sans-serif">greenhouse effect</text>
+
+  <!-- Definition -->
+  <text x="54" y="198" font-size="12" fill="#cdd6f4" font-family="-apple-system, BlinkMacSystemFont, sans-serif">The warming of Earth's surface caused by</text>
+  <text x="54" y="214" font-size="12" fill="#cdd6f4" font-family="-apple-system, BlinkMacSystemFont, sans-serif">atmospheric gases trapping solar radiation.</text>
+
+  <!-- Contextual explain -->
+  <text x="54" y="236" font-size="11.5" fill="#a6adc8" font-family="-apple-system, BlinkMacSystemFont, sans-serif">Here it describes the mechanism driving</text>
+  <text x="54" y="251" font-size="11.5" fill="#a6adc8" font-family="-apple-system, BlinkMacSystemFont, sans-serif">long-term climate shifts from CO₂ buildup.</text>
+
+  <!-- Example (italic blue with left border) -->
+  <rect x="54" y="260" width="3" height="30" rx="1" fill="#45475a"/>
+  <text x="64" y="273" font-size="11" fill="#89b4fa" font-style="italic" font-family="-apple-system, BlinkMacSystemFont, sans-serif">The greenhouse effect keeps Earth 33°C</text>
+  <text x="64" y="288" font-size="11" fill="#89b4fa" font-style="italic" font-family="-apple-system, BlinkMacSystemFont, sans-serif">warmer than it would otherwise be.</text>
+</svg>
