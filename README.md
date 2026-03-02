@@ -176,8 +176,3 @@ You can type any valid model name into the Model field — the dropdown is just 
 - Text selections and chat messages are sent directly from your browser to Anthropic or OpenAI — no intermediate server
 - Lookup results are cached locally to avoid redundant API calls; use **Clear cache** in settings to wipe them
 
----
-
-## License
-
-MIT
